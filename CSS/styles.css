@@ -1,0 +1,253 @@
+.Franja {
+  background-color: rgba(222, 184, 135, 0.705);
+  padding-top: 1.7rem;
+  padding: 1.3rem;
+}
+
+.home {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-blend-mode: multiply;
+  text-align: center;
+  background-attachment: fixed;
+  height: 300vh;
+}
+
+/* Estilo */
+.navbar{
+background-color: #f5f5f5;
+padding: 10px;
+display: flex;
+justify-content: space-around;
+}
+
+.navbar a {
+text-decoration: none;
+color: #333;
+}
+
+.header {
+text-align: center;
+margin-top: 50px;
+}
+
+.header h1,
+.header h2 {
+color: black;
+}
+
+
+/* Login Body*/
+
+.login_body {
+  font-family: Arial, sans-serif;
+  margin: 0
+  padding: 0;
+  background-repeat: none;
+
+  background-blend-mode: multiply;
+  text-align: center;
+  background-attachment: fixed;
+  height: 500vh;
+  width: auto;
+  background-attachment: fixed;
+
+}
+
+/* Formulario del Login*/
+/* Formulario del Login */
+.formulario {
+  padding: 2rem;
+  margin: 2rem auto;
+  border-radius: 1rem;
+  max-width: 500px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.formulario legend {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.campo input {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  color: white;
+  margin-bottom: 1rem;
+  border-radius: 0;
+}
+
+.campo input:focus {
+  border-color: crimson;
+  outline: none;
+}
+
+.boton_formulario button {
+  width: 100%;
+  padding: 1rem;
+  background-color: white;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.boton_formulario button:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.campo p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: white;
+}
+
+
+/*** Formulario de Ingresar ***/
+.formulario{
+  padding: 1.5rem 2.5rem;
+  border-radius: 1.5rem;
+}
+
+.formulario fieldset{
+  border: none;
+}
+
+.formulario legend{
+  font-size: 1.6rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: black;
+}
+
+.campo{
+  margin-bottom: 1rem;
+}
+
+.campo label{
+
+  color: black;
+  font-weight: 600;
+  display: block;
+  margin-bottom: .5rem;
+}
+
+.campo input{
+  width: 80;
+  padding: .6rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: solid .1rem;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+}
+.campo textarea{
+width: 100;
+height: 15rem;
+border: none;
+border-radius: .5rem;
+color: black;
+}
+
+.campo textarea::placeholder{
+  padding-left: .3rem;
+  padding-top: .3rem;
+}
+
+.boton_formulario{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.servicio button{
+  background-color: white;
+  padding: .7rem .4rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+}
+
+.servicio button:hover{
+  background-color: crimson;
+  color: black;
+  transition: 1s;
+  }
+
+  /* Estilos para Registro */
+.formulario {
+  padding: 2rem;
+  margin: 2rem auto;
+  border-radius: 1rem;
+  max-width: 500px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.formulario legend {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.campo input {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  color: white;
+  margin-bottom: 1rem;
+  border-radius: 0;
+}
+
+.campo input:focus {
+  border-color: crimson;
+  outline: none;
+}
+
+.boton_formulario button {
+  width: 100%;
+  padding: 1rem;
+  background-color: white;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.boton_formulario button:hover {
+  background-color: crimson;
+  color: white;
+}

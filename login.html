@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="preload" href="/CSS/styles.css">
+    <link rel="stylesheet" href="/CSS/styles.css">
+</head>
+
+<body class="login_body">
+    <!-- Franja -->
+    <section class="Franja">
+        <nav>
+            <a class="home" href="#">
+                <p> lorem | Ejemplo</p>
+            </a>
+        </nav>
+    </section>
+
+    <header>
+        <div class="navbar">
+            <a href="index.html" target="_blank">Home</a>
+            <a href="registro.html" target="_blank">Registro</a>
+        </div>
+
+        <div class="header">
+            <h1>Iniciar Sesión</h1>
+            <h2>Accede a tu cuenta</h2>
+        </div>
+    </header>
+
+    <!-- Formulario de Login -->
+    <form action="login" class="formulario">
+        <fieldset>
+            <legend>Inicio de Sesión</legend>
+
+            <div class="campo">
+                <label for="usuario">Correo Electrónico</label>
+                <input type="email" id="usuario" placeholder="Ingresa tu correo" required>
+            </div>
+
+            <div class="campo">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" placeholder="Ingresa tu contraseña" required>
+            </div>
+
+            <div class="boton_formulario">
+                <button type="submit">Ingresar</button>
+            </div>
+
+            <div class="campo">
+                <p>¿No tienes una cuenta? <a href="registro.html" style="color: crimson;">Regístrate aquí</a></p>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
