@@ -1,0 +1,27 @@
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1;
+    font-size:small;
+}
+
+header a{
+    text-decoration: none;
+    color: #e9e9e9;
+}
+
+.marca{
+    background-color: rgb(92, 14, 65);
+    padding: 1.3rem;
+    display: flex;
+    justify-content: space-around
+}
+
+nav{
+    background-color: #CC2B52;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+
