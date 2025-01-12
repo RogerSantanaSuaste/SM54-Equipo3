@@ -27,26 +27,26 @@ body {
 }
 
 /* Estilo */
-.navbar{
-background-color: #f5f5f5;
-padding: 10px;
-display: flex;
-justify-content: space-around;
+.navbar {
+  background-color: #f5f5f5;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .navbar a {
-text-decoration: none;
-color: #333;
+  text-decoration: none;
+  color: #333;
 }
 
 .header {
-text-align: center;
-margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .header h1,
 .header h2 {
-color: black;
+  color: black;
 }
 
 
@@ -54,7 +54,7 @@ color: black;
 
 .login_body {
   font-family: Arial, sans-serif;
-  margin: 0
+  margin: 0;
   padding: 0;
   background-repeat: none;
 
@@ -128,16 +128,16 @@ color: black;
 
 
 /*** Formulario de Ingresar ***/
-.formulario{
+.formulario {
   padding: 1.5rem 2.5rem;
   border-radius: 1.5rem;
 }
 
-.formulario fieldset{
+.formulario fieldset {
   border: none;
 }
 
-.formulario legend{
+.formulario legend {
   font-size: 1.6rem;
   text-align: center;
   text-transform: uppercase;
@@ -145,11 +145,11 @@ color: black;
   color: black;
 }
 
-.campo{
+.campo {
   margin-bottom: 1rem;
 }
 
-.campo label{
+.campo label {
 
   color: black;
   font-weight: 600;
@@ -157,7 +157,7 @@ color: black;
   margin-bottom: .5rem;
 }
 
-.campo input{
+.campo input {
   width: 80;
   padding: .6rem;
   background-color: transparent;
@@ -166,26 +166,27 @@ color: black;
   border-top-left-radius: .5rem;
   border-top-right-radius: .5rem;
 }
-.campo textarea{
-width: 100;
-height: 15rem;
-border: none;
-border-radius: .5rem;
-color: black;
+
+.campo textarea {
+  width: 100;
+  height: 15rem;
+  border: none;
+  border-radius: .5rem;
+  color: black;
 }
 
-.campo textarea::placeholder{
+.campo textarea::placeholder {
   padding-left: .3rem;
   padding-top: .3rem;
 }
 
-.boton_formulario{
+.boton_formulario {
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
 }
 
-.servicio button{
+.servicio button {
   background-color: white;
   padding: .7rem .4rem;
   border-radius: 1rem;
@@ -194,13 +195,13 @@ color: black;
   color: black;
 }
 
-.servicio button:hover{
+.servicio button:hover {
   background-color: crimson;
   color: black;
   transition: 1s;
-  }
+}
 
-  /* Estilos para Registro */
+/* Estilos para Registro */
 .formulario {
   padding: 2rem;
   margin: 2rem auto;
@@ -251,3 +252,5 @@ color: black;
   background-color: crimson;
   color: white;
 }
+
+/***  Dashboard Gaming   ***/
