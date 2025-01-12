@@ -1,2 +1,50 @@
 @import url(normalize.css);
 @import url(header.css);
+
+main{
+    background-color: #740E30;
+    height: 100%;
+}
+
+.dashContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .flowerCard {
+    height: 40rem min-content;
+    width: 34rem;
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    background-color: #051120;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cardImage img{
+    size: 80%;
+    border-radius: 2rem;
+  }
+  
+  .cardTitle h3 {
+    font-size: 2.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFF;
+    background-color: rgba(255, 255, 255, 0.321);
+    border-radius: 1rem;
+  }
+  
+  .cardText p {
+    color: #ffffff;
+    padding: .5rem;
+    text-align: center;
+  }
+  
+  
