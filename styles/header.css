@@ -1,4 +1,4 @@
-
+@import url(normalize.css);
 
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -30,4 +30,12 @@ nav a{
     border-radius: .5rem;
     border-bottom: .3rem solid rgba(0, 0, 0, 0.345);
     background-color: #A0153C;
+}
+
+nav span{
+    padding: .8rem;
+    border-radius: .5rem;
+    border-bottom: .3rem solid rgba(0, 0, 0, 0.345);
+    background-color: #A0153C;
+    color: #e9e9e9;
 }

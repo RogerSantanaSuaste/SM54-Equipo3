@@ -1,0 +1,84 @@
+@import url(normalize.css);
+
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1;
+    font-size:medium;
+    display: flex;
+}
+
+/* Barra lateral */
+.sidebar {
+    width: 250px;
+    background-color: #CC2B52;
+    color: #fff;
+    padding-top: 20px;
+    position: fixed;
+    height: 100%;
+}
+nav a{
+    padding: .8rem;
+    border-radius: .5rem;
+    border-bottom: .3rem solid rgba(0, 0, 0, 0.345);
+    background-color: #A0153C;
+}
+
+.sidebar .logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar .logo h2 {
+    color: #ecf0f1;
+}
+
+.sidebar .nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar .nav ul li {
+    padding: 15px;
+    text-align: center;
+}
+
+.sidebar .nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.sidebar .nav ul li a:hover {
+    background-color: #34495e;
+}
+
+/* Contenido principal */
+.main-content {
+    margin-left: 290px;
+    padding: 50px;
+    flex-grow: 1;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: white;
+    padding-left: 20rem;
+}
+
+
+main{
+    background-color: #A0153C;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+
